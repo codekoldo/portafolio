@@ -27,16 +27,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.music-player {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.music-info {
-    text-align: center;
-}
-
 .perfil-foto {
     width: 150px;
     height: 150px;
