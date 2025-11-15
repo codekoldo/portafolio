@@ -144,15 +144,15 @@ body {
 }
 
 .fade-in-text {
-    animation: fadeInRight 1s ease-out;
+    animation: slideFromRight 1s ease-out forwards;
 }
 
-@keyframes fadeInRight {
-    from {
+@keyframes slideFromRight {
+    0% {
         opacity: 0;
         transform: translateX(100px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
