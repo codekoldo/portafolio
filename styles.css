@@ -42,10 +42,10 @@ body {
 
 .foto-perfil h3 {
     margin: 0;
+    margin-top: 10px;
     font-size: 1.3rem;
 }
 
-/* Columna derecha - Info básica */
 .informacion-contenido {
     background-color: #2a2a2a;
     border-radius: 15px;
@@ -59,7 +59,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* Sección de mensaje - Ancho completo */
 .mensaje-informacion {
     max-width: 1200px;
     margin: 0 auto 20px auto;
@@ -74,7 +73,6 @@ body {
     font-size: 1rem;
 }
 
-/* Sección de redes - Ancho completo */
 .informacion-redes {
     max-width: 1200px;
     margin: 0 auto 20px auto;
@@ -106,7 +104,6 @@ body {
     text-decoration: underline;
 }
 
-/* Fotos debajo de todo */
 .fotos-trabajo {
     max-width: 1200px;
     margin: 0 auto;
