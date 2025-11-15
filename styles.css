@@ -22,6 +22,12 @@ body {
     align-items: start;
 }
 
+.container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .foto-perfil {
     background-color: #2a2a2a;
     border-radius: 15px;
@@ -29,7 +35,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
     height: fit-content;
-    margin-bottom: 20px;
 }
 
 .perfil-foto {
@@ -64,8 +69,6 @@ body {
 }
 
 .mensaje-informacion {
-    max-width: 1200px;
-    margin: 0 auto 20px auto;
     background-color: #2a2a2a;
     border-radius: 15px;
     padding: 30px;
@@ -78,8 +81,6 @@ body {
 }
 
 .informacion-redes {
-    max-width: 1200px;
-    margin: 0 auto 20px auto;
     background-color: #2a2a2a;
     border-radius: 15px;
     padding: 30px;
@@ -164,6 +165,10 @@ body {
     
     .container {
         grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .container > div {
         gap: 15px;
     }
     
