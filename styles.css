@@ -21,7 +21,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Columna izquierda - Solo foto y título */
 .foto-perfil {
     background-color: #2a2a2a;
     border-radius: 15px;
@@ -29,6 +28,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
     height: fit-content;
+    margin-bottom: 20px;
 }
 
 .perfil-foto {
@@ -55,7 +55,7 @@ body {
 }
 
 .informacion-contenido p {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     font-size: 1.1rem;
 }
 
