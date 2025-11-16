@@ -57,14 +57,17 @@ body {
     justify-content: flex-end;
 }
 
-.redes-iconos a {
+.redes-iconos a,
+.redes-iconos div {
     display: block;
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-.redes-iconos a:hover {
+.redes-iconos a:hover,
+.redes-iconos div:hover {
     transform: scale(1.1);
 }
 
@@ -154,6 +157,8 @@ body {
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding-left: 20px;
 }
 
 .proyectos-titulo {
@@ -167,11 +172,6 @@ body {
     top: 50%;
     transform: translateY(-50%) rotate(180deg);
     letter-spacing: 3px;
-}
-
-.proyectos-container {
-    position: relative;
-    padding-left: 20px;
 }
 
 .proyectos-grid {
@@ -232,7 +232,8 @@ body {
         justify-content: flex-start;
     }
 
-    .redes-iconos a {
+    .redes-iconos a,
+    .redes-iconos div {
         width: 40px;
         height: 40px;
     }
