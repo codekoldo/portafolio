@@ -155,21 +155,20 @@ body {
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    position: relative;
-    padding-left: 20px;
 }
 
 .proyectos-titulo {
     font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 20px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    position: absolute;
-    left: -50px;
-    top: 50%;
-    transform: translateY(-50%) rotate(180deg);
+    transform: rotate(180deg);
     letter-spacing: 3px;
+    background-color: #2a2a2a;
+    border-radius: 15px;
+    padding: 20px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .proyectos-grid {
