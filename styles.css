@@ -93,10 +93,10 @@ body {
     gap: 20px;
 }
 
-.foto-perfil {
+.info-completa {
     background-color: #2a2a2a;
     border-radius: 15px;
-    padding: 15px 20px;
+    padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
     height: fit-content;
@@ -111,25 +111,17 @@ body {
     border: 3px solid #4a4a4a;
 }
 
-.foto-perfil h3 {
-    margin: 0;
+.info-completa h3 {
+    margin: 0 0 15px 0;
     font-size: 1.3rem;
 }
 
-.informacion-contenido {
-    background-color: #2a2a2a;
-    border-radius: 15px;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    height: fit-content;
-}
-
-.informacion-contenido p {
+.info-datos p {
     margin-bottom: 12px;
     font-size: 1.1rem;
 }
 
-.informacion-contenido p:last-child {
+.info-datos p:last-child {
     margin-bottom: 0;
 }
 
@@ -251,8 +243,7 @@ body {
         gap: 15px;
     }
     
-    .foto-perfil,
-    .informacion-contenido,
+    .info-completa,
     .mensaje-informacion,
     .proyectos-container {
         padding: 20px;
