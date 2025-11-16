@@ -209,19 +209,21 @@ body {
 .social-icon::after {
   content: attr(data-tooltip);
   position: absolute;
-  bottom: -40px;
+  bottom: -55px;
   left: 50%;
   transform: translateX(-50%);
   background: #2c2c2c;
   color: #fff;
-  padding: 8px 12px;
+  padding: 10px 15px;
   border-radius: 6px;
-  white-space: nowrap;
+  white-space: pre-line;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
   font-size: 14px;
   z-index: 1000;
+  text-align: center;
+  line-height: 1.4;
 }
 
 .social-icon:hover::after {
